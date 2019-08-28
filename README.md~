@@ -117,4 +117,4 @@ Based on the prediction of the situation we are in, this code
 
     For simplicity for the spline calculation based on those points, the coordinates are transformed (shift and rotation) to local car coordinates.
     
-- In order to ensure more continuity on the trajectory (in addition to adding the last two point of the pass trajectory to the spline adjustment), the past trajectory points are copied to the new trajectory. The rest of the points are calculated by evaluating the spline and transforming the output coordinates to local coordinates.
+- In order to ensure more continuity on the trajectory (in addition to adding the last two point of the pass trajectory to the spline adjustment), the pass trajectory points are copied to the new trajectory. The rest of the points are calculated by evaluating the spline and transforming the output coordinates to not local coordinates.
